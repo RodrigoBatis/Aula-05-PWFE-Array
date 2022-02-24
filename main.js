@@ -121,7 +121,7 @@ console.log("Essa é a média dos numeros:", resultadoMedia)
 
 const validador = (numero) => numero %2 != 0
 const numerosImpares = numeros.filter(validador)
-const resultadoSomaImpares = numerosImpares.reduce((a, b) => a + b, soma)
+const resultadoSomaImpares = numerosImpares.reduce((soma))
 
 console.log("-------------------------")
 console.log("Atividade 4")
